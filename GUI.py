@@ -1,5 +1,4 @@
-# Chess Graphical User Interface (GUI)
-# Written by Rutuparn Pawar <InputBlackBoxOutput>
+
 
 import tkinter
 from tkinter import *
@@ -80,7 +79,7 @@ class GUI(Tk):
 	#-------------------------------------------------------------------------------
 	# Status bar
 	def createStatusBar(self):
-		self.status = Label(self, text="Developed by InputBlackBoxOutput", font='calibri 12 normal', borderwidth=1, relief=SUNKEN, anchor='s', pady=4)
+		self.status = Label(self, text="Developed by Harish", font='calibri 12 normal', borderwidth=1, relief=SUNKEN, anchor='s', pady=4)
 		self.status.pack(side=BOTTOM, fill=X)
 
 		Label(window).pack(side=BOTTOM) # Spacer
