@@ -1,6 +1,4 @@
-# Chess AI bot
-# Code originally written by AnthonyASanchez
-# Modified by Rutuparn Pawar <InputBlackBoxOutput>
+
 
 import chess
 
